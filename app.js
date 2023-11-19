@@ -18,7 +18,7 @@ const ejsMate=require("ejs-mate");
 app.engine('ejs', ejsMate);
 const { listingSchema,reviewSchema }=require("./schema.js");
 const ExpressError = require("./utils/ExpressError.js");
- //const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
+// const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 
 
 
